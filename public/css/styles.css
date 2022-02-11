@@ -1,0 +1,530 @@
+*{
+    margin: 0px;
+    padding: 0px;    
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
+}
+
+h3{
+    font-size: 24px;
+}
+
+p{
+    font-size: 12px;
+}
+
+div.top-header{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+}
+
+header div.top-header p{
+    text-align: center;
+    padding-left: 5vw;
+    margin-top: 10px;
+    display: flex;
+    position: absolute;
+    left: 36vw;
+    width: 25vw;
+}
+
+header{
+    padding-bottom: 4vh;
+    background-color: #EAC926;
+}
+header .form{
+    width: 50%;
+    position: relative;
+    left: 9vw;
+}
+header nav div{
+    display: flex;
+    flex-direction: row;
+}
+
+header div.logo img{
+    padding: 10px;
+    width:25vw;
+}
+header .form{
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    font-size: 11px;
+}
+header nav{
+    font-size: 12px;
+    display: none;
+    margin-left: 20px;
+}
+
+header ul li{
+    list-style-type: none;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: #000;
+}
+
+header .form .input{
+    background-color: #FFF;
+    border: 1px solid rgba(0, 0, 0, 0);
+    outline: none;
+    color: #666;
+    border-radius: 3px;
+    padding: 2px;
+    width: 110vw;
+    padding-left: -10vw;
+    height: auto;
+}
+
+header .form .submit{
+    background-color: #FFF;
+    border: 1px solid rgba(0, 0, 0, 0);
+    color: #666;
+    width: 10%;
+    position: relative;
+    left: -3.5vh;
+    border-radius: 2px;
+    width: auto;
+}
+
+div.burger-menu{
+    text-align: center;
+}
+
+div.burger-menu i{
+    background-color: #0044AA;
+    position: relative;
+    top: 5.5vh;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 20px;
+    height: 40px;
+    margin: 10px 0px 20px 0px;
+    padding: 10px;
+    width: 40px;
+}
+div.last-visit,
+div.offers{
+    display: flex;
+    flex-wrap: wrap;
+}
+.price{
+    font-size: 18px;
+    width: 30%;
+}
+
+.discount{
+    width: 70%;
+}
+
+.discount,
+.description{
+    font-size: 16px;
+    font-weight: normal;
+}
+
+h3,
+.description{
+    color: #666;
+}
+
+.description{
+    display: flex;
+    margin-top: 20px;
+}
+
+section.banner img{
+    width: 100%;
+}
+
+main{
+    width: 90%;
+    margin: 0 auto;
+}
+
+main section article{
+    background-color: #fff;    
+    margin: 10px 0px;
+}
+
+main section article img{
+    width: 100%;
+}
+
+main section article i,
+.discount{
+    color: #39b54a;
+}
+
+main section article i{
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+}
+
+main section h3{
+    margin: 20px 0px;
+}
+
+.main-article i:hover{
+    transform: rotate(-90deg);
+    transition-duration: 2s;
+}
+
+article div.main-article{
+    width: 100%;    
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    border-top: 1px solid #ebebeb;
+    position: relative;
+    padding: 15px;
+}
+.registerform{
+    display: flex;
+    flex-direction: column;
+    
+}
+.loginform{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form.loginform{
+    display: flex;
+    align-items: stretch;
+    position: relative;
+    right: -34.7vw;
+}
+.loginname{
+    margin-bottom: 3vh;
+    padding-left: 1vw;
+    margin-top: 7vh;
+    border: #ebebeb 1px solid;
+    border-radius: 5px;
+    height: 5vh;
+    width: 60vw;
+    position: relative;
+    right: 16vw;
+}
+.loginpass{
+    border: #ebebeb 1px solid;
+    border-radius: 5px;
+    height: 5vh;
+    padding-left: 1vw;
+    width: 60vw;
+    position: relative;
+    right: 16vw;
+}
+.divlogin{
+    width: 100vw;
+    background-color:#EBEBEB;
+    height: 33vh;
+}
+.bodylogin{
+    background-color:white
+}
+form.registerform{
+    background-color: #EBEBEB;
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    position: relative;
+    padding-bottom: 3vh;
+    padding-top: 2vh;
+}
+
+.registerinput,input#contra,input#confirmcontra,input.borndate{
+    width: 45vw;
+    border-radius: 4px;
+    margin-bottom: 1.3vw;
+    padding-left: 0.3vw;
+    border: 1px solid white;
+    height: 2.3vw;
+}
+select{
+    width: 25vw;
+    border-radius: 4px;
+    margin-bottom: 1vw;
+    padding-left: 0.3vw;
+    border: 1px solid white;
+    height: 2.3vw;
+}
+label.borndate{
+    position: relative;
+    right: 10vw;
+    bottom: 0.2vw;
+    padding-bottom: 0.4vw;
+}
+div.perfilusuario{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    position: relative;
+    right: 7.5vw;
+
+}
+.fotoperfilclass{
+    margin-bottom: 3vw;
+}
+label.intereses{
+    margin-top: 2vw;
+
+}
+.divdecompradoryvendedor{
+    align-content: space-around;
+    position: relative;
+    left: 1.4vw;
+}
+.bodyregister{
+    background-color: white;
+}
+.buttonsubmitlogin{
+    width: 60vw;
+    position: relative;
+    right: 16vw;
+background-color:#1259c3;
+color: #ebebeb;
+border: #1259c3;
+border-radius: 3px;
+height: 4vh;
+}
+header div p{
+    width: 80vw;
+}
+.resetbutton{
+    width: 7vw;
+    position: relative;
+left: 0vw;        
+background-color:#1259c3;
+color: #ebebeb;
+border: #1259c3;
+border-radius: 3px; 
+height: 3vh;
+}
+.sendbutton{
+    width: 7vw;
+    position: relative;
+left: 0vw;
+background-color:#1259c3;
+color: #ebebeb;
+border: #1259c3;
+border-radius: 3px;
+height: 3vh;
+}
+
+footer i{
+    color:#1259c3;
+    font-size: 2em;
+}
+footer{
+    text-align: center;
+    line-height: 19px;
+    padding-top: 3vh;
+    padding-bottom: 4vh;
+}
+@media (max-width: 425px){
+    header .form .submit{
+        background-color: #FFF;
+        border: 1px solid rgba(0, 0, 0, 0);
+        color: #666;
+        width: 10%;
+        left: 50vw;
+        top: 9.35vh;
+        position: absolute;
+        border-radius: 2px;
+    width: auto;
+    }
+    header div.top-header p{
+        text-align: center;
+        padding-left: 5vw;
+        margin-top: 10px;
+        display: flex;
+        position: absolute;
+        width: 32vh;
+        left: -2vh;
+        top: 0vh;
+    }
+    header nav{
+        display: none;
+        padding-top: 7vh;
+    }
+    header .form .input{
+        background-color: #FFF;
+        border: 1px solid rgba(0, 0, 0, 0);
+        outline: none;
+        color: #666;
+        border-radius: 3px;
+        position: absolute;
+        padding: 2px;
+        width: 85vw;
+        height: auto;
+     left: -30vw;
+     top: 9vh;
+    }
+    header .form .submit{
+        background-color: #FFF;
+        border: 1px solid rgba(0, 0, 0, 0);
+        color: #666;
+        width: 10%;
+        left: 50vw;
+        top: 9.35vh;
+        position: absolute;
+        border-radius: 2px;
+    width: auto;
+    }
+}
+
+@media (min-width: 361px){
+    ul.ul1{
+        position: relative;
+        padding-right: 1vw;
+        left: -3vw;
+    }
+ul.ul2{
+padding-left: 2vw;
+    }
+    header ul li{
+        display: inline;
+padding: 5px;
+align-content: space-around;
+    }
+header nav{
+    display:flex ;
+}
+    .borndate{
+        width: 45vw;
+    }
+    div.burger-menu i{
+        display: none;
+    }
+    .loginform{
+        width: 45vw;
+    }
+.registerform{
+    width: 45vw;
+}
+    main section article .description{
+        opacity: 0;
+    }
+    main section article:hover .description{
+        opacity: 1;
+    }
+
+    main section article:hover{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+    main section div.products{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    
+    main section div.products article{
+        width: 45%;
+        cursor: pointer;
+    }
+
+    .price,
+    .discount{
+        width: 50%;
+    }
+}
+
+@media (min-width: 768px){
+    input#search.input{
+        width: 35vw;
+    }
+    ul.ul1{
+        padding-left: 3vw;
+    }
+    ul.ul2{
+        padding-left: 30vw;
+    }
+    header ul li a{
+        font-size: 1.4vw;
+    }
+    main section div.products article{
+        width: 22%;
+    }
+    .borndate{
+        width: 24.4vw;
+    }
+    .loginform{
+        width: 25vw;
+        padding-left: 8px;
+        padding-top: 4px;
+    }
+.registerform{
+    width: 25vw;
+    padding-left: 8px;
+    padding-top: 4px;
+}
+}
+
+@media (min-width: 375px){
+    header ul li{
+        font-size: 7px;
+    }
+}
+
+@media (min-width: 425px){
+    header ul li{
+        font-size: 8px;
+    }
+}
+
+@media (min-width: 1024px){
+    header nav div ul{
+        padding-top: 1vw;
+    }
+    header nav div ul li a{
+        font-size: 13px;
+    }
+    ul.ul1{
+        padding-left: 5vw;
+    }
+    ul.ul2{
+        padding-left: 49vw;
+    }
+header div .logo{
+    width: 21%;
+}
+header div.top-header p{
+    width: 29vw;
+    position: absolute;
+    left:38vw;
+    top: 2.5vw;    
+}
+header .form .submit{
+position: absolute;
+left: 33.6vw;
+top: 3.3vw;
+}
+header .form .input {
+    width: 39vw
+}
+}
+@media (min-width: 1440px){
+ul.ul2{
+        padding-left: 50vw;
+    }
+}
