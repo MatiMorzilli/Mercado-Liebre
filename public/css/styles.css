@@ -248,7 +248,9 @@ form.registerform{
     padding-bottom: 3vh;
     padding-top: 2vh;
 }
-
+label.fotodeperfil{
+    margin-bottom: 2vh;
+}
 .registerinput,input#contra,input#confirmcontra,input.borndate{
     width: 45vw;
     border-radius: 4px;
@@ -493,6 +495,21 @@ header nav{
 }
 
 @media (min-width: 1024px){
+    footer{
+        display: flex;
+        position: relative;
+        left: 8vw;
+        width: 80vw;
+    }
+    p.copyright{
+        position: absolute;
+        top: 21vh;
+        width: 29vw;
+        right: 63vw;
+    }
+    footer i:hover{
+        color: #12c321;
+    }
     header nav div ul{
         padding-top: 1vw;
     }
